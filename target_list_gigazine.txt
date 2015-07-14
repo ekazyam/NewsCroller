@@ -1,0 +1,23 @@
+################################################################################# 
+# 
+# column1: 0 check off / 1 check on
+# column2: targeturl
+# column3: keyword
+# columnn: and more keyword.
+#
+# Check Blog	:ON
+# Target URL	: http://srad.jp/slashdotjp.rss
+# Check Keyword	: android,iphone,windows,linux,mac
+# valid keyword	: #game
+#
+# Example Keyword order
+# 1,http://feed.rssad.jp/rss/gigazine/rss_2.0,android,iphone,windows,linux,mac,#game
+# Example Allow Random order.
+# 1,http://feed.rssad.jp/rss/gigazine/rss_2.0,#android,iphone,#windows,linux,#mac
+#
+################################################################################# 
+#内部利用データ
+#!,<description/>,giga-
+
+# トップページ
+0,http://feed.rssad.jp/rss/gigazine/rss_2.0
