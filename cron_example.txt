@@ -1,0 +1,8 @@
+# Hatebu
+0 * * * * /home/pi/tools/NewsCroller.sh /home/pi/tools/target_list_hatebu.txt > /dev/null 2>&1
+
+# Slado
+15 * * * * /home/pi/tools/NewsCroller.sh /home/pi/tools/target_list_slado.txt > /dev/null 2>&1
+
+# Gigazine
+30 * * * * /home/pi/tools/NewsCroller.sh /home/pi/tools/target_list_gigazine.txt > /dev/null 2>&1
