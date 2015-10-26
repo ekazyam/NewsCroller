@@ -9,6 +9,7 @@ It has confirmed the operation in Raspbian operating at Raspberry pi.
 It will set up a CSV format file that describes the NewsCroller.sh and crawled away.
 It is registered in the crontab.
 Described example , please refer to the target_list_hatebu.txt.
+It supports the RSS as the analysis data.
 ~~~
 0 * * * * /home/hoge/NewsCroller.sh /home/hoge/target_list_hatebu.txt > /dev/null 2>&
 ~~~
