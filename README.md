@@ -15,7 +15,7 @@ It supports the RSS as the analysis data.
 ~~~
 
 # Config
-###slado_replace.sh
+###NewsCroller.sh
 You can change the header of the message.
 ~~~
 MSG_BOT='[自動ツイート]'
